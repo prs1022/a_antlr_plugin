@@ -6,4 +6,4 @@
 > select  a,b,c from A_t join ( 	select b,c,d 	from B_t ) t_t on A_t.b = t_t.b  
 
 
-![img](resources/gif/GIF.gif) 
+![img](GIF.gif) 
