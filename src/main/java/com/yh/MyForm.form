@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.vip.MyForm">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="41" width="579" height="347"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.5"/>
+      <autoscrolls value="false"/>
+      <background color="-12209090"/>
+      <enabled value="true"/>
+      <minimumSize width="0" height="0"/>
+      <preferredSize width="530" height="350"/>
+      <toolTipText value="语法高亮插件"/>
+    </properties>
+    <border type="line" title-justification="2">
+      <font/>
+      <title-color color="-4473925"/>
+      <color color="-4473925"/>
+    </border>
+    <children>
+      <component id="6cd46" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="20" style="1"/>
+          <requestFocusEnabled value="true"/>
+          <text value="antlr plugin"/>
+        </properties>
+      </component>
+      <component id="ecdee" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font size="14" style="0"/>
+          <preferredSize width="120" height="19"/>
+          <text value="输入sql"/>
+        </properties>
+      </component>
+      <component id="e2d50" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <preferredSize width="120" height="17"/>
+          <text value="输入dsl"/>
+        </properties>
+      </component>
+      <scrollpane id="dc304" binding="dsl_scroll">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <horizontalScrollBarPolicy value="31"/>
+          <minimumSize width="0" height="0"/>
+          <opaque value="false"/>
+          <preferredSize width="120" height="100"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="9f2cd" class="javax.swing.JTextField" binding="dsl_content">
+            <constraints/>
+            <properties>
+              <opaque value="true"/>
+              <preferredSize width="120" height="100"/>
+              <requestFocusEnabled value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="7eea9" binding="sql_scroll">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="true"/>
+          <inheritsPopupMenu value="false"/>
+          <maximumSize width="900" height="900"/>
+          <minimumSize width="0" height="0"/>
+          <opaque value="false"/>
+          <preferredSize width="120" height="100"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="2e5e" class="javax.swing.JTextArea" binding="sql_content">
+            <constraints/>
+            <properties>
+              <enabled value="true"/>
+              <lineWrap value="true"/>
+              <maximumSize width="20" height="100"/>
+              <minimumSize width="20" height="19"/>
+              <preferredSize width="120" height="100"/>
+              <wrapStyleWord value="false"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="f8a3" class="javax.swing.JButton" binding="execute">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
